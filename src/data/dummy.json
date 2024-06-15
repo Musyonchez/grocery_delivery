@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "price": 0.99,
+    "itemVolume": "500g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/npkIWBWWUo-XoJFd8MqfZfgPEjn-RL0UqlBpkoQlopU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc4/Mzk1OTUzL3Bob3Rv/L2dyZWVuLWFwcGxl/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz10bGZ6OGo0amgt/emtMUFRscUdKaUJZ/dl9TMkU1SXVILWs1/akJiMzBoU0FVPQ"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "price": 0.59,
+    "itemVolume": "100g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/be_1-DLOKKmCWfcegHpXSh_C0aDUPu0VnyrjYUIb3oE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NDMyMTgwMjQtNTdh/NzAxNDNjMzY5P3E9/ODAmdz0xMDAwJmF1/dG89Zm9ybWF0JmZp/dD1jcm9wJml4bGli/PXJiLTQuMC4zJml4/aWQ9TTN3eE1qQTNm/REI4TUh4elpXRnlZ/Mmg4TVRCOGZHSmhi/bUZ1WVhOOFpXNThN/SHg4TUh4OGZEQT0.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Carrot",
+    "price": 0.45,
+    "itemVolume": "200g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/-8dHVriYsFGAnujVX46hiODTtOXIVloYWfg-QkqC-tE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cGxhbnRmb29kYXRo/b21lLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wMi9C/dW5jaC1vZi1DYXJy/b3RzLUFyZS1DYXJy/b3RzLWEtRnJ1aXQt/b3ItYS1WZWdldGFi/bGUuanBn"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Orange",
+    "price": 0.79,
+    "itemVolume": "300g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/o7gIWAKrlGWuSDIVT6y11W_39eh6iFEhffJ1tEiLZl0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/MS8yMC8xNS8wNi9v/cmFuZ2VzLTE5OTUw/NTZfMTI4MC5qcGc"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Grapefruit",
+    "price": 0.89,
+    "itemVolume": "250g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/-aY4tYtuUQGzLa8ejxxZ0c8vr1xLfkHjbhW1V7XvJg0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaW1tZWRpYXRl/LmNvLnVrL3Byb2R1/Y3Rpb24vdm9sYXRp/bGUvc2l0ZXMvMzAv/MjAxNy8wOC9GcmVz/aC1ncmFwZWZ1aXQt/OWZiMThiMS5qcGc_/cXVhbGl0eT05MCZy/ZXNpemU9NDQwLDQw/MA"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pear",
+    "price": 0.69,
+    "itemVolume": "150g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/3LAcO2rij9e2FwzKwByWU3A5WbtSJ18OkD3TkSULXHM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODEy/NjM1ODc2L3Bob3Rv/L2ZyZXNoLXBlYXJz/LXdpdGgtbGVhdmVz/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1wTGJjZ0x4RUtE/VUdGMHpsaWdLbUJs/dXNvM3VhZ0tQMlJ6/bjBOM0JnbE9rPQ"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Strawberry",
+    "price": 1.29,
+    "itemVolume": "200g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/BCDRaP-XmHJHKCwJHuoeltUlyIh6ZJ_qoouxPDXJAZE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOC8w/NC8yOS8xMS81NC9z/dHJhd2JlcnJpZXMt/MzM1OTc1NV82NDAu/anBn"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tomato",
+    "price": 0.75,
+    "itemVolume": "250g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/fP_wHSQBoeUVdD_3_8V_FJbaXY4W3ph1wvf__r15Uv8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/amFncmFuam9zaC5j/b20vaW1hZ2VzLzIw/MjIvU2VwdGVtYmVy/LzI3OTIwMjIvdG9t/YXRvLWNvbXByZXNz/ZWQud2VicA"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pineapple",
+    "price": 1.49,
+    "itemVolume": "400g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/0Ho1r6SmkojmecxwEd0OF2-4hY9PuT2NuvHET4AlsyM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTUz/MDEwOTU0L3Bob3Rv/L3BpbmVhcHBsZS1m/cnVpdC1vbi10aGUt/YnVzaC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NXp1WG96/NjdRVU9FTk1fQjVn/S3dHaVlsVFFoeTF2/YWRnX0JHQ0FKN18w/WT0"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Watermelon",
+    "price": 1.99,
+    "itemVolume": "600g",
+    "imageUrls": [
+      "https://imgs.search.brave.com/CBjMUx4ceWKBxl-WN3HT98i4CT3_RZWvCA5H72TqNrg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjQ5/ODI0NzE2L3Bob3Rv/L3N1bW1lci1mcnVp/dC1ncmVlbi13YXRl/cm1lbG9uLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1DZllx/T0ZoN3ZlZkxEcGZ3/Zy1hejRwV3BFVGRk/TDV2SUsxZU4tV2E3/Y2JjPQ"
+    ]
+  }
+]
