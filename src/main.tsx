@@ -1,53 +1,28 @@
-import * as React from "react";
-// import App from './App.tsx'
-// import Cart from './Cart.tsx'
-import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
+// import React from "react";
+import ReactDOM from "react-dom";
 import { Provider } from "jotai";
-import Root from "./routes/root";
-import Cart from "./routes/cart"
-import ErrorPage from "./error-page";
-const router = createBrowserRouter([
-  {
-    path: "/cart",
-    element: <Cart />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/home",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-  },
-]);
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Root from "./routes/root"; // Adjust the import path
+import Cart from "./routes/cart"; // Adjust the import path
+import "./index.css"
 
 const App = () => {
   return (
-    <Provider>
-      <RouterProvider router={router} />
-    </Provider>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+    </Router>
   );
 };
 
-const container = document.getElementById("root");
-if (container!== null) {
-  ReactDOM.createRoot(container).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-} else {
-  console.error("Failed to find the root element");
-}
+export default App; // Export the App component
 
-export default App;
 
-// ReactDOM.createRoot(document.getElementById("root")!).render(
-//   <React.StrictMode>
-//     <Provider>
-//       <App />
-//       <Cart />
-//     </Provider>
-//   </React.StrictMode>
-// );
-
+ReactDOM.render(
+  <Provider>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

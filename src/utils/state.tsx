@@ -7,6 +7,7 @@ type GroceryItem = {
   price: number;
   itemVolume: string;
   imageUrls: string[];
+  itemNumber?: number;
 };
 
 export const groceryAtom = atom<GroceryItem[]>([]);
