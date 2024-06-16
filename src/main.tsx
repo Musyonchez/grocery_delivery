@@ -2,9 +2,9 @@
 import ReactDOM from "react-dom";
 import { Provider } from "jotai";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Root from "./routes/root"; // Adjust the import path
-import Cart from "./routes/cart"; // Adjust the import path
-import "./index.css"
+import Root from "./components/Item/GroceryList"; 
+import Cart from "./routes/cart"; 
+import "./index.css";
 
 const App = () => {
   return (
@@ -17,8 +17,7 @@ const App = () => {
   );
 };
 
-export default App; // Export the App component
-
+export default App; 
 
 ReactDOM.render(
   <Provider>

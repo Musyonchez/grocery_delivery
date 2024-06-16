@@ -1,5 +1,5 @@
 // state.ts
-import { atom } from 'jotai';
+import { atom } from "jotai";
 
 type GroceryItem = {
   id: number;
